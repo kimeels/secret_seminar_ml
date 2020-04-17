@@ -19,6 +19,10 @@ Change directories into MALT and create a virtual environment:
 Start the virtual env and install the necessary packages using the requirements file:
   ```
   source ml_tut_venv/bin/activate
+  
+  pip install numpy
+  
+  pip install cython
 
   pip install -r requirements.txt
   
